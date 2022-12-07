@@ -12,6 +12,10 @@ let imc = peso / (altura * altura);
 let anoNascimento = 2022 - idade;
 
 console.log(
+  `${nome} ${sobrenome} tem ${idade} anos, pesa ${peso}kg, tem ${altura} de altura e seu IMC É ${imc}. `);
+console.log(`${nome} ${sobrenome} nasceu em ${anoNascimento}`);
+
+/*console.log(
   nome,
   sobrenome,
   "tem",
@@ -28,4 +32,4 @@ console.log(
   sobrenome,
   "nasceu em ",
   anoNascimento
-);
+);*/

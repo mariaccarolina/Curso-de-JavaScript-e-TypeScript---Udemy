@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    color: rgb(90, 103, 116);
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(68, 75, 82);
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: slategrey;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(216, 189, 216);
+    border-radius: 20px;
+    width: 100%;
+    height: 50vh;
+    margin: 20px;
+}
